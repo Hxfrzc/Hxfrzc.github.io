@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'llt';
+  font-display: swap;
+  src: url('/fonts/llt.ttc') format("truetype");  
+}
+@font-face {
+  font-family: 'llt2';
+  font-display: swap;
+  src: url('/fonts/llt2.ttf') format("truetype");
+}
+
+
+
+
+/* 自定义样式表 */
+.post-copyright-info a {
+    color: #8e24aa !important;
+}
+
+.nav-fixed>#nav {
+    background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+    backdrop-filter: blur(10px)
+}
+
+[data-theme="dark"] .nav-fixed>#nav{
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+.card-widget {
+    background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+    backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme="dark"] .card-widget {
+  /* 使用深莓果紫到午夜蓝的渐变 */
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+/*主页文章轮播页面*/
+#recent-posts>.recent-post-item {
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme=dark] #recent-posts>.recent-post-item {
+  /* 使用深莓果紫到午夜蓝的渐变 */
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+/*主页文章列表页面卡片*/
+#recent-posts>.recent-post-items .recent-post-item{
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme=dark] #recent-posts>.recent-post-items .recent-post-item{
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+
+/*分类页面*/
+.layout>#page {
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme=dark] .layout>#page {
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+/*归档页面*/
+.layout>#archive {
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme=dark] .layout>#archive {
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+/*分类点进去的页面*/
+.layout>#category {
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px) /* 强化毛玻璃感 */
+}
+
+[data-theme=dark] .layout>#category {
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
+
+/* 文章页面 */
+.layout>#post {
+  font-family: 'Source Han Sans';
+  font-size: 18px;
+  background: linear-gradient(-45deg, #e1bee7cc, #c5cae9cc, #f8bbd0cc, #d1c4e9cc) !important;
+  backdrop-filter: blur(10px)
+}
+
+[data-theme=dark] .layout>#post {
+  background: linear-gradient(-45deg, 
+    rgba(45, 10, 61, 0.75), 
+    rgba(25, 25, 112, 0.7), 
+    rgba(72, 61, 139, 0.75), 
+    rgba(48, 25, 52, 0.7)
+  ) !important;
+  backdrop-filter: blur(10px)
+}
